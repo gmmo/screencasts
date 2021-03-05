@@ -405,7 +405,7 @@ void Sample3DSceneRenderer::CreateCloth()
     vertexBufferData.pSysMem = m_pClothVertices;
     vertexBufferData.SysMemPitch = 0;
     vertexBufferData.SysMemSlicePitch = 0;
-    CD3D11_BUFFER_DESC vertexBufferDesc(m_clothVerticesSize, D3D11_BIND_VERTEX_BUFFER);
+    CD3D11_BUFFER_DESC vertexBufferDesc((UINT)m_clothVerticesSize, D3D11_BIND_VERTEX_BUFFER);
 
     vertexBufferDesc.Usage = D3D11_USAGE_DYNAMIC;
     vertexBufferDesc.CPUAccessFlags = D3D11_CPU_ACCESS_WRITE;
@@ -525,7 +525,7 @@ void Sample3DSceneRenderer::CreateSphere()
     vertexBufferData.pSysMem = m_pSphereVertices;
     vertexBufferData.SysMemPitch = 0;
     vertexBufferData.SysMemSlicePitch = 0;
-    CD3D11_BUFFER_DESC vertexBufferDesc(m_sphereVerticesSize, D3D11_BIND_VERTEX_BUFFER);
+    CD3D11_BUFFER_DESC vertexBufferDesc((UINT)m_sphereVerticesSize, D3D11_BIND_VERTEX_BUFFER);
 
     DX::ThrowIfFailed(
         m_deviceResources->GetD3DDevice()->CreateBuffer(
