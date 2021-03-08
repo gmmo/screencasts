@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>faa6cb3d-3c2c-4fbf-be34-d4cd330b8690</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>9d11a042-bfb2-418e-8754-9933e0cde832</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>701b2561-c8fc-46e1-8a35-b7ae6ce02b26</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Content\Shaders">
+      <UniqueIdentifier>{ca7eb338-6fee-4e0a-91ae-1bd1f01380fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Data">
+      <UniqueIdentifier>{6762e83d-c3e0-4653-8e65-4809e298c5e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="ClothMain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Content\SceneRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\DDSTextureLoader.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\FileLoad.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\FlatRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\GridRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\LightRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\LightTexRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\ObjectRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\SoftBodyRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\TextRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\Data\GLibAssets.cpp">
+      <Filter>Content\Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="ClothMain.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Content\ShaderStructures.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\SceneRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\DDSTextureLoader.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\FileLoad.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\FlatRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\GridRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\LightRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\LightTexRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ObjectRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ShaderCBuff.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\SoftBodyRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\TextRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\Data\GLibAssets.h">
+      <Filter>Content\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\bricks.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\checkerboard.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\cloth.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\kids.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\marble.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\stones.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\tiles.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\wall.dds">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Content\SamplePixelShader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\SampleVertexShader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\ColorPS.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\ColorPSBasic.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\ColorStruct.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\ColorVS.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\ColorVSBasic.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\LightPS.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\LightTexPS.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\LightTexVS.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\LightVS.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Data\boatIndices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\boatVertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\cone_Indices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\cone_Vertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\coneIndices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\coneVertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\cubeIndices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\cubeVertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\floor_Indices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\floor_Vertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\floorIndices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\floorVertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\hires_plane_Indices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\hires_plane_Vertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\ico_sphere_Indices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\ico_sphere_Vertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\monkeyIndices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\monkeyVertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\raptorIndices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\raptorVertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\sphereIndices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\sphereVertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\teapotIndices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\teapotVertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\textured_plane_Indices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\textured_plane_Vertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\textured_sphere_Indices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\textured_sphere_Vertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\textured_teapot_Indices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\textured_teapot_Vertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\textured_torus_Indices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\textured_torus_Vertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\torusIndices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\torusVertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\unitsphereIndices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\unitsphereVertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\walls_Indices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\Data\walls_Vertices.inl">
+      <Filter>Content\Data</Filter>
+    </None>
+    <None Include="Content\LightStruct.h">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\LightTexStruct.h">
+      <Filter>Content\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
